@@ -94,15 +94,35 @@
 // export default UseState;
 
 // **************************************************************************************************
-//⬇️5 ----  *****************************************
-import { useState } from "react";
-const UseState = () => {
-  useState();
-  return <div>hell</div>;
-};
-export default UseState;
+//⬇️5 ---- using state class component---- alternate way *****************************************
+// ! example for using state in class component
+// import React from "react";
+// class UseState extends React.Component {
+//   constructor() {
+//     super();
+//     this.state = { count: 0 };
+//   }
+//   render() {
+//     return (
+//       <>
+//         {this.state.count}
+//         <br />
+//         <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+//           Increase
+//         </button>
+//       </>
+//     );
+//   }
+// }
+// export default UseState;
+
 // **************************************************************************************************
 //⬇️6 ----  *****************************************
 
+const UseState = () => {
+  // return <div>UseState</div>;
+};
+
+export default UseState;
 // **************************************************************************************************
 //⬇️7 ----  *****************************************

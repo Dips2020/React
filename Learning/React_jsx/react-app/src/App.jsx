@@ -4,6 +4,7 @@ import MathRandom from "./components/Basics/MathRandom";
 import Props from "./components/Basics/Props";
 import Header from "./components/Basics/PropsDrilling/Header";
 import UseState from "./components/Hooks/UseState";
+import TodoList from "./components/TodoListApp/TodoList";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Header message="Prop Drilling. Hello....." />
       </div>
       <UseState />
+      <TodoList />
     </>
   );
 }
