@@ -1,6 +1,6 @@
 // ====
 // ====
-// ! ⚠️: As return() in function () and render() in class is same
+// ! ⚠️: As return() in function () and render(){} in class is same
 // =================================== ❗⬇️Mounting⬇️❗ ===================================
 // 1⬇️ Functional way----------------------------------
 export default function LifeCycle() {
