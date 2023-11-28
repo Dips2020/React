@@ -96,7 +96,7 @@ const TodoList = () => {
                     style={{
                       cursor: "pointer",
                       textDecoration: todo.isCompleted
-                        ? "line-thTodoList"
+                        ? "line-through"
                         : "none",
                     }}
                     onClick={() => toggleTodoCompletion(index)}
