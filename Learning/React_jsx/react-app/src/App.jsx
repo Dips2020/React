@@ -1,17 +1,20 @@
-import EventHandle from "./components/Basics/EventHandling";
-import LifeCycle from "./components/Basics/LifeCycle";
-import MathRandom from "./components/Basics/MathRandom";
-import Props from "./components/Basics/Props";
-import Header from "./components/Basics/PropsDrilling/Header";
-import UseState from "./components/Hooks/UseState";
-import TodoList from "./components/TodoListApp/TodoList";
+// import EventHandle from "./components/Basics/EventHandling";
+// import LifeCycle from "./components/Basics/LifeCycle";
+// import MathRandom from "./components/Basics/MathRandom";
+// import Props from "./components/Basics/Props";
+// import Header from "./components/Basics/PropsDrilling/Header";
+// import UseEffect from "./components/Hooks/UseEffect/UseEffect";
+// import UseState from "./components/Hooks/UseState";
+// import Rough from "./components/Rough";
+// import TodoList from "./components/TodoListApp/TodoList";
 
 function App() {
   return (
     <>
-      <MathRandom />
-      <EventHandle />
-      <LifeCycle />
+      {/* <Rough /> */}
+      {/* <MathRandom /> */}
+      {/* <EventHandle /> */}
+      {/* <LifeCycle /> */}
       <div>
         {/* //! Props.jsx ⬇️ */}
         {/* ⬇️1 */}
@@ -30,13 +33,14 @@ function App() {
         {/* <Props name="DiPS" nickName="NA" /> */}
 
         {/* ⬇️6 ---- Passing Children */}
-        <Props>Hello Children</Props>
+        {/* <Props>Hello Children</Props> */}
 
         {/* Props Drilling -- it is in PropsDrilling Folder*/}
-        <Header message="Prop Drilling. Hello....." />
+        {/* <Header message="Prop Drilling. Hello....." /> */}
       </div>
-      <UseState />
-      <TodoList />
+      {/* <UseState /> */}
+      {/* <TodoList /> */}
+      {/* <UseEffect /> */}
     </>
   );
 }
