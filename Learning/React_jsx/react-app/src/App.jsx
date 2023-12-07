@@ -6,7 +6,9 @@
 // import UseEffect from "./components/Hooks/UseEffect/UseEffect";
 // import UseState from "./components/Hooks/UseState";
 // import Rough from "./components/Rough";
-// import TodoList from "./components/TodoListApp/TodoList";
+// import TodoList from "./components/MiniProject/TodoListApp/TodoList";
+// import ImageGallery from "./components/MiniProject/ImageGallery/ImageGallery";
+import UseLayoutEffect from "./components/Hooks/UseLayoutEffect";
 
 function App() {
   return (
@@ -38,9 +40,14 @@ function App() {
         {/* Props Drilling -- it is in PropsDrilling Folder*/}
         {/* <Header message="Prop Drilling. Hello....." /> */}
       </div>
-      {/* <UseState /> */}
+      {/* ------------------------ ⬇️ MiniProjects ⬇️ ------------------------ */}
       {/* <TodoList /> */}
+      {/* <ImageGallery /> */}
+      {/* ------------------------ ⬇️ Hooks ⬇️ ------------------------ */}
+      {/* <UseState /> */}
       {/* <UseEffect /> */}
+      <UseLayoutEffect />
+      {/* -------------------------------------------------------------- */}
     </>
   );
 }
