@@ -15,22 +15,22 @@
 // export default UseLayoutEffect;
 
 // 2⬇️ ---------------------------------------------------
-import { useEffect, useLayoutEffect, useState } from "react";
-const UseLayoutEffect = () => {
-  const [count, setCount] = useState(0);
-  useEffect(() => {
-    console.log("This is useEffect hook.");
-  }, [count]);
-  useLayoutEffect(() => {
-    console.log("This is useLayoutEffect hook.");
-  }, [count]);
-  return (
-    <div>
-      UseLayoutEffect
-      <br />
-      <button onClick={() => setCount(count + 1)}>Increase</button>
-    </div>
-  );
-};
+// import { useEffect, useLayoutEffect, useState } from "react";
+// const UseLayoutEffect = () => {
+//   const [count, setCount] = useState(0);
+//   useEffect(() => {
+//     console.log("This is useEffect hook.");
+//   }, [count]);
+//   useLayoutEffect(() => {
+//     console.log("This is useLayoutEffect hook.");
+//   }, [count]);
+//   return (
+//     <div>
+//       UseLayoutEffect
+//       <br />
+//       <button onClick={() => setCount(count + 1)}>Increase</button>
+//     </div>
+//   );
+// };
 
-export default UseLayoutEffect;
+// export default UseLayoutEffect;

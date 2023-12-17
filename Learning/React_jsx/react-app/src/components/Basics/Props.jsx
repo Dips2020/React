@@ -145,9 +145,3 @@ assigning prop validations like
 // export default Props;
 
 // **************************************************************************************************
-const Props = () => {
-  // return (
-  //   <div>Props</div>
-  // )
-};
-export default Props;
