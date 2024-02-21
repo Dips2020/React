@@ -8,7 +8,9 @@
 // import Rough from "./components/Rough";
 // import TodoList from "./components/MiniProject/TodoListApp/TodoList";
 // import ImageGallery from "./components/MiniProject/ImageGallery/ImageGallery";
-import UseLayoutEffect from "./components/Hooks/UseLayoutEffect";
+// import UseLayoutEffect from "./components/Hooks/UseLayoutEffect";
+// import FormValidation from "./components/MiniProject/FormValidation/FormValidation";
+import FormikFormValidation from "./components/MiniProject/FormValidation/FormikFormValidation";
 
 function App() {
   return (
@@ -43,10 +45,12 @@ function App() {
       {/* ------------------------ ⬇️ MiniProjects ⬇️ ------------------------ */}
       {/* <TodoList /> */}
       {/* <ImageGallery /> */}
+      {/* <FormValidation /> */}
+      <FormikFormValidation />
       {/* ------------------------ ⬇️ Hooks ⬇️ ------------------------ */}
       {/* <UseState /> */}
       {/* <UseEffect /> */}
-      <UseLayoutEffect />
+      {/* <UseLayoutEffect /> */}
       {/* -------------------------------------------------------------- */}
     </>
   );
