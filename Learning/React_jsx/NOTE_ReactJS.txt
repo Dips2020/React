@@ -10,6 +10,7 @@ cd react-app ⬇️
 =====
 =====
 ---------------------------------------------------------------------------
+cd react-app ⬇️
 MiniProject/FormValidation
     1. Yup (top validation list)library:-> npm i yup (cd react-app)
     2. Formik (state management of forms, error handlings and many more) library:-> npm install formik --save
