@@ -1,5 +1,34 @@
 cd react-app ⬇️
+    { 
+        installed react-icons 
+        bootstrap
+        npm install axios 
+        (Axios is a popular JavaScript library for making HTTP requests from a web browser or a Node. js server. 
+        It performs various operations, such as retrieving and sending data and handling responses.)
+    }
 
-// installed react-icons 
-// bootstrap
-// npm install axios 
+=====
+=====
+---------------------------------------------------------------------------
+MiniProject/FormValidation
+    1. Yup (top validation list)library:-> npm i yup (cd react-app)
+    2. Formik (state management of forms, error handlings and many more) library:-> npm install formik --save
+---------------------------------------------------------------------------
+=====
+=====
+
+=====
+=====
+---------------------------------------------------------------------------
+ 
+---------------------------------------------------------------------------
+=====
+=====
+
+=====
+=====
+---------------------------------------------------------------------------
+ 
+---------------------------------------------------------------------------
+=====
+=====
