@@ -10,7 +10,8 @@
 // import ImageGallery from "./components/MiniProject/ImageGallery/ImageGallery";
 // import UseLayoutEffect from "./components/Hooks/UseLayoutEffect";
 // import FormValidation from "./components/MiniProject/FormValidation/FormValidation";
-import FormikFormValidation from "./components/MiniProject/FormValidation/FormikFormValidation";
+// import FormikFormValidation from "./components/MiniProject/FormValidation/FormikFormValidation";
+import ReactRouter from "./components/ReactRouter/ReactRouter";
 
 function App() {
   return (
@@ -46,11 +47,20 @@ function App() {
       {/* <TodoList /> */}
       {/* <ImageGallery /> */}
       {/* <FormValidation /> */}
-      <FormikFormValidation />
+      {/* <FormikFormValidation /> */}
       {/* ------------------------ ⬇️ Hooks ⬇️ ------------------------ */}
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseLayoutEffect /> */}
+      {/* -------------------------------------------------------------- */}
+      {/* ------------------------ ⬇️ Router ⬇️ ------------------------ */}
+      <ReactRouter />
+      {/* -------------------------------------------------------------- */}
+      {/* ------------------------ ⬇️  ⬇️ ------------------------ */}
+
+      {/* -------------------------------------------------------------- */}
+      {/* ------------------------ ⬇️  ⬇️ ------------------------ */}
+
       {/* -------------------------------------------------------------- */}
     </>
   );
