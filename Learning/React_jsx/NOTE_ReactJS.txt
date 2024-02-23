@@ -21,15 +21,20 @@ MiniProject/FormValidation
 =====
 =====
 ---------------------------------------------------------------------------
- 
+cd react-app ⬇️ (ReactRouter.jsx)
+npm install react-router-dom
 ---------------------------------------------------------------------------
 =====
 =====
 
 =====
 =====
+⬇️ ❗❗❗ HOOKS ❗❗❗⬇️
 ---------------------------------------------------------------------------
- 
+{ useEffect, useLayoutEffect, useState } ----> in cd -> Hooks
+{ useField } hook importing from "formik" ----> in cd -> MiniProject -> FormValidation -> UseFieldHook.jsx
+{ useParams } hook importing from "react-router-dom" ----> in cd -> ReactRouter -> Pages -> BookDetails.jsx
+{ useNavigate } hook importing from "react-router-dom" ----> in cd -> ReactRouter -> Pages -> ContactUs.jsx/PageNotFound.jsx
 ---------------------------------------------------------------------------
 =====
 =====
