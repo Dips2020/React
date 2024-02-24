@@ -12,7 +12,8 @@
 // import FormValidation from "./components/MiniProject/FormValidation/FormValidation";
 // import FormikFormValidation from "./components/MiniProject/FormValidation/FormikFormValidation";
 // import ReactRouter from "./components/ReactRouter/ReactRouter";
-import UseContext from "./components/Hooks/useContext_useReducer/UseContext";
+// import UseContext from "./components/Hooks/useContext_useReducer/UseContext";
+import UseReducer from "./components/Hooks/useContext_useReducer/UseReducer";
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseLayoutEffect /> */}
-      <UseContext />
+      {/* <UseContext /> */}
+      <UseReducer />
       {/* -------------------------------------------------------------- */}
       {/* ------------------------ ⬇️ Routing ⬇️ ------------------------ */}
       {/* <ReactRouter /> */}
