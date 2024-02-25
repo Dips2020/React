@@ -14,7 +14,10 @@
 // import ReactRouter from "./components/ReactRouter/ReactRouter";
 // import UseContext from "./components/Hooks/useContext_useReducer/UseContext";
 // import UseReducer from "./components/Hooks/useContext_useReducer/UseReducer";
-import TodoList_useReducer from "./components/Hooks/useContext_useReducer/UseReducer/TodoList_useReducer/TodoList_useReducer";
+// import TodoList_useReducer from "./components/Hooks/useContext_useReducer/UseReducer/TodoList_useReducer/TodoList_useReducer";
+// import UseRef from "./components/Hooks/useRef/UseRef";
+
+import CounterRender from "./components/Hooks/useRef/CounterRender/CounterRender";
 
 function App() {
   return (
@@ -57,7 +60,9 @@ function App() {
       {/* <UseLayoutEffect /> */}
       {/* <UseContext /> */}
       {/* <UseReducer /> */}
-      <TodoList_useReducer />
+      {/* <TodoList_useReducer /> */}
+      {/* <UseRef /> */}
+      <CounterRender />
       {/* -------------------------------------------------------------- */}
       {/* ------------------------ ⬇️ Routing ⬇️ ------------------------ */}
       {/* <ReactRouter /> */}
