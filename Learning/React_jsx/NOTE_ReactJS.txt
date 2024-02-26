@@ -10,8 +10,8 @@ cd react-app ⬇️
 =====
 =====
 ---------------------------------------------------------------------------
+(MiniProject/FormValidation)
 cd react-app ⬇️
-MiniProject/FormValidation
     1. Yup (top validation list)library:-> npm i yup (cd react-app)
     2. Formik (state management of forms, error handlings and many more) library:-> npm install formik --save
 ---------------------------------------------------------------------------
@@ -21,8 +21,9 @@ MiniProject/FormValidation
 =====
 =====
 ---------------------------------------------------------------------------
-cd react-app ⬇️ (ReactRouter.jsx)
-npm install react-router-dom
+(ReactRouter.jsx)
+cd react-app ⬇️ 
+--> npm install react-router-dom
 ---------------------------------------------------------------------------
 =====
 =====
@@ -35,6 +36,17 @@ npm install react-router-dom
 { useField } hook importing from "formik" ----> in cd -> MiniProject -> FormValidation -> UseFieldHook.jsx
 { useParams } hook importing from "react-router-dom" ----> in cd -> ReactRouter -> Pages -> BookDetails.jsx
 { useNavigate } hook importing from "react-router-dom" ----> in cd -> ReactRouter -> Pages -> ContactUs.jsx/PageNotFound.jsx
+---------------------------------------------------------------------------
+=====
+=====
+
+=====
+=====
+⬇️ ❗❗❗ Firebase DB ❗❗❗⬇️
+---------------------------------------------------------------------------
+(CRUD_Operation_Firebase/CrudOperationFirebase.jsx)
+cd react-app ⬇️
+--> npm install firebase
 ---------------------------------------------------------------------------
 =====
 =====
