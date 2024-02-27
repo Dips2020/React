@@ -17,8 +17,9 @@
 // import TodoList_useReducer from "./components/Hooks/useContext_useReducer/UseReducer/TodoList_useReducer/TodoList_useReducer";
 // import UseRef from "./components/Hooks/useRef/UseRef";
 // import CounterRender from "./components/Hooks/useRef/CounterRender/CounterRender";
-
-import CrudOperationFirebase from "./components/CRUD_Operation_Firebase/CrudOperationFirebase";
+// import CrudOperationFirebase from "./components/CRUD_Operation_Firebase/CrudOperationFirebase";
+// import Memoization from "./components/Hooks/useCallback_useMemo/useMemo/Memoization";
+import UseCallback from "./components/Hooks/useCallback_useMemo/useCallback/UseCallback";
 
 function App() {
   return (
@@ -64,12 +65,14 @@ function App() {
       {/* <TodoList_useReducer /> */}
       {/* <UseRef /> */}
       {/* <CounterRender /> */}
+      {/* <Memoization /> */}
+      <UseCallback />
       {/* -------------------------------------------------------------- */}
       {/* ------------------------ ⬇️ Routing ⬇️ ------------------------ */}
       {/* <ReactRouter /> */}
       {/* -------------------------------------------------------------- */}
       {/* ------------------------ ⬇️ CRUD Operation Firebase ⬇️ ------------------------ */}
-      <CrudOperationFirebase />
+      {/* <CrudOperationFirebase /> */}
 
       {/* -------------------------------------------------------------- */}
       {/* ------------------------ ⬇️  ⬇️ ------------------------ */}

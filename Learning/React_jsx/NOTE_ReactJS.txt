@@ -32,7 +32,7 @@ cd react-app ⬇️
 =====
 ⬇️ ❗❗❗ HOOKS ❗❗❗⬇️
 ---------------------------------------------------------------------------
-{ useEffect, useLayoutEffect, useState, useContext, useReducer, useRef } ----> in cd -> Hooks
+{ useEffect, useLayoutEffect, useState, useContext, useReducer, useRef, useMemo, useCallback } ----> in cd -> Hooks
 { useField } hook importing from "formik" ----> in cd -> MiniProject -> FormValidation -> UseFieldHook.jsx
 { useParams } hook importing from "react-router-dom" ----> in cd -> ReactRouter -> Pages -> BookDetails.jsx
 { useNavigate } hook importing from "react-router-dom" ----> in cd -> ReactRouter -> Pages -> ContactUs.jsx/PageNotFound.jsx
