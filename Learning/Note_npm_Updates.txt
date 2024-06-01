@@ -1,0 +1,7 @@
+cd react-project ⬇️ (of any project)
+to update npm dependencies (package.json files)
+    {
+        npx npm-check-updates ---- to check updates
+        npx npm-check-updates -u ---- to update all
+        npm install ---- and install
+    }
