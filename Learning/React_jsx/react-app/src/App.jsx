@@ -11,7 +11,7 @@
 // import UseLayoutEffect from "./components/Hooks/UseLayoutEffect";
 // import FormValidation from "./components/MiniProject/FormValidation/FormValidation";
 // import FormikFormValidation from "./components/MiniProject/FormValidation/FormikFormValidation";
-// import ReactRouter from "./components/ReactRouter/ReactRouter";
+import ReactRouter from "./components/ReactRouter/ReactRouter";
 // import UseContext from "./components/Hooks/useContext_useReducer/UseContext";
 // import UseReducer from "./components/Hooks/useContext_useReducer/UseReducer";
 // import TodoList_useReducer from "./components/Hooks/useContext_useReducer/UseReducer/TodoList_useReducer/TodoList_useReducer";
@@ -19,7 +19,7 @@
 // import CounterRender from "./components/Hooks/useRef/CounterRender/CounterRender";
 // import CrudOperationFirebase from "./components/CRUD_Operation_Firebase/CrudOperationFirebase";
 // import Memoization from "./components/Hooks/useCallback_useMemo/useMemo/Memoization";
-import UseCallback from "./components/Hooks/useCallback_useMemo/useCallback/UseCallback";
+// import UseCallback from "./components/Hooks/useCallback_useMemo/useCallback/UseCallback";
 
 function App() {
   return (
@@ -66,10 +66,10 @@ function App() {
       {/* <UseRef /> */}
       {/* <CounterRender /> */}
       {/* <Memoization /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
       {/* -------------------------------------------------------------- */}
       {/* ------------------------ ⬇️ Routing ⬇️ ------------------------ */}
-      {/* <ReactRouter /> */}
+      <ReactRouter />
       {/* -------------------------------------------------------------- */}
       {/* ------------------------ ⬇️ CRUD Operation Firebase ⬇️ ------------------------ */}
       {/* <CrudOperationFirebase /> */}
